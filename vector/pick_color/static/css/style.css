@@ -1,0 +1,92 @@
+/*importazione del font: Russo One*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Impostazioni di default*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+body{
+    margin-top: 35vh;
+    background-color: #FE0202;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*container titolo*/
+.Title{
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.font{
+    margin: 2.2% auto;
+}
+
+.sizeTitle{
+    font-size: 75px;
+}
+
+.sizeSubTitle{
+    margin-top: px;
+    font-size: 22px;
+}
+
+/* Links block color */
+
+.Container{
+    margin-top: 31px;
+}
+
+.Container .linksEnable{
+    margin-right: 20px;
+}
+
+ .Container .ContainerPainted{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: #fff;
+ }
+
+ .Container .ContainerPainted:hover{
+    border: 3px solid #000;
+    padding: 2px;
+ }
+
+ .ContainerPainted .LinksPainted
+ {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+    #red {
+        background-color: #FE0202;
+    }
+    #gray {
+        background-color: #59BC98;
+    }
+    #blu {
+        background-color: #2594D2;
+    }
+    #green {
+        background-color: #72BC59;
+    }
+    #purple {
+        background-color: #BC59A0;
+    }
+    #yellow {
+        background-color: #DCF63C;
+    }
